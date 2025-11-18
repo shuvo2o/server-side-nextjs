@@ -26,4 +26,4 @@ export async function DELETE (_request: Request, { params }: {params: Promise<{ 
     const deletedUser = data[index];
     data.splice(index, 1);
     return Response.json({ message:"user Deleted", deletedUser }, { status: 200 });
-}
+}  
